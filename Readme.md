@@ -13,4 +13,15 @@ We're not the kind to leave you high and dry, which is why we made sure there's 
 The possibilities are endless and the only limit is your creativity. Then again, here's a non-exhaustive list from our side, because, well, because we don't like to leave you high and dry. 
 
 1. Neck exercises (sensor strapped on head)
-[!image] (Images/Sample_Neck.jpg)
+2. Knee exercises (sensor strapped on leg)
+3. Elbow exercises (sensor strapped on forearm)
+
+## But how is it helping in physiotherapy?
+Well, I don't know about you, but traditional physiotherapy sounds INCREDIBLY boring. The usual way to go about it is to have a specialist beside you, telling you to do exercises such as raising a leg, rotating a wrist and so on. A recent study found out that 14% of physiotherapy patients did not return for follow-up outpatient appointments. Non-adherence to a home exercise program has been shown to be as high as 50-65% for general musculoskeletal conditions. This can lead to recurrent injury with the chance of a flare up and less positive outcomes in the long term.
+
+We aim to make physiotherapy fun by integrating traditional exercises with games, thereby gamifying the approach. Using an interactive and rewarding approach for such a procedure makes the patient want to come back and follow up with the doctor. This leads to better treatment and adherence to the exercise program, leading to long term benefits. While we agree that a specialist is needed, we feel that the approach towards physiotherapy could use some changes and we are bringing that change.
+
+## Time to go a bit technical
+(INSERT IMAGE OF CIRCUIT)
+(INSERT IMAGE OF GLOVE)
+
