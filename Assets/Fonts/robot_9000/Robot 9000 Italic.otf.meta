@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 863592810dd03ac48b55d71ae137448f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Robot 9000
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 84c08cb795c35fe4db59168e6ecc2745, type: 3}
+  - {fileID: 12800000, guid: e487008f6ee5efb45886410081bb11a4, type: 3}
+  - {fileID: 12800000, guid: 64c93716e9f5d7047bdaf0dc4de4ef26, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
