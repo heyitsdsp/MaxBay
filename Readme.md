@@ -13,4 +13,4 @@ We're not the kind to leave you high and dry, which is why we made sure there's 
 The possibilities are endless and the only limit is your creativity. Then again, here's a non-exhaustive list from our side, because, well, because we don't like to leave you high and dry. 
 
 1. Neck exercises (sensor strapped on head)
-[!image] (./Images/Sample_Neck.jpg)
+[!image] (Images/Sample_Neck.jpg)
