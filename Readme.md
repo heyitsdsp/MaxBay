@@ -7,6 +7,8 @@ In other words, our sensor unit is a **wearable controller**.
 
 For a proof of concept, we've adapted our sensor unit for a very specific physiotherapy exercise - _wrist mobility exercise_. We've fitted our sensor onto a glove that allows the patient to easily perform the said exercise. On a very very fundamental level, if you twist your wrist to the left, the game character moves to the left and if you twist your wrist to the right, the game character moves to the right. 
 
+(GIF OF THE END RESULT)
+
 ## Sounds good, but is it only for the wrist?
 We're not the kind to leave you high and dry, which is why we made sure there's plenty to do with our system. The standalone nature of our device makes it easy for us to integrate it for a wide variety of exercises. You can strap it to your head and accordingly gamify neck exercises. Or let's say for example you've broken your hand (praying that it never comes to that) and you want a simpler way to control your mouse. Well, here's the sensor you were looking for to automate the same.
 
@@ -24,4 +26,8 @@ We aim to make physiotherapy fun by integrating traditional exercises with games
 ## Time to go a bit technical
 (INSERT IMAGE OF CIRCUIT)
 (INSERT IMAGE OF GLOVE)
+
+(INSERT IMAGE OF FLOWCHART)
+
+
 
