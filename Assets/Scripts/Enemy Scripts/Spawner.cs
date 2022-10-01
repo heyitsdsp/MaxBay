@@ -12,7 +12,7 @@ public class Spawner : MonoBehaviour
     float maxTime;
     [SerializeField]
     Transform[] spawnPos;
-    bool spawn;
+    bool spawn=true;
 
     void Start()
     {
@@ -36,7 +36,10 @@ public class Spawner : MonoBehaviour
         int index = Random.Range(0, enemyPrefabs.Length);
         int spawnIndex = Random.Range(0, spawnPos.Length);
         GameObject spawnedEnemy = Instantiate(enemyPrefabs[index], spawnPos[spawnIndex].position, Quaternion.identity);
+        spawnedEnemy.SetActive(true);
         spawn = true;
+        Destroy(spawnedEnemy, 20f);
 
     }
+    
 }
