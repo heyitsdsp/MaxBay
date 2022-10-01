@@ -13,16 +13,17 @@ public class Spawner : MonoBehaviour
     [SerializeField]
     Transform[] spawnPos;
     bool spawn=true;
+    CollisionScript playerCollision;
 
     void Start()
     {
-        
+        playerCollision = GameObject.FindGameObjectWithTag("Player").GetComponent<CollisionScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (spawn)
+        if (spawn && playerCollision.isAlive)
         {
             spawn = false;
             StartCoroutine(DelayBetweenSpawns());
