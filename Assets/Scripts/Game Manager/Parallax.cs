@@ -8,15 +8,20 @@ public class Parallax : MonoBehaviour
     Vector2 speed;
     Vector2 offset;
     Material material;
-
+    CollisionScript playerCollision;
     void Awake()
     {
         material = GetComponent<SpriteRenderer>().material;
+        playerCollision = GameObject.FindGameObjectWithTag("Player").GetComponent<CollisionScript>();
     }
 
     void Update()
     {
-        ScrollBackground();
+        if (playerCollision.isAlive)
+        {
+            ScrollBackground();
+        }
+        
     }
 
     void ScrollBackground()

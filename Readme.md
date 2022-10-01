@@ -7,7 +7,7 @@ In other words, our sensor unit is a **wearable controller**.
 
 For a proof of concept, we've adapted our sensor unit for a very specific physiotherapy exercise - _wrist mobility exercise_. We've fitted our sensor onto a glove that allows the patient to easily perform the said exercise. On a very very fundamental level, if you twist your wrist to the left, the game character moves to the left and if you twist your wrist to the right, the game character moves to the right. 
 
-(GIF OF THE END RESULT)
+![gif_final](https://user-images.githubusercontent.com/56624437/193396706-3e293204-4cea-4678-ace4-04a4525e6b7f.gif)
 
 ## Sounds good, but is it only for the wrist?
 We're not the kind to leave you high and dry, which is why we made sure there's plenty to do with our system. The standalone nature of our device makes it easy for us to integrate it for a wide variety of exercises. You can strap it to your head and accordingly gamify neck exercises. Or let's say for example you've broken your hand (praying that it never comes to that) and you want a simpler way to control your mouse. Well, here's the sensor you were looking for to automate the same.
@@ -24,10 +24,19 @@ Well, I don't know about you, but traditional physiotherapy sounds INCREDIBLY bo
 We aim to make physiotherapy fun by integrating traditional exercises with games, thereby gamifying the approach. Using an interactive and rewarding approach for such a procedure makes the patient want to come back and follow up with the doctor. This leads to better treatment and adherence to the exercise program, leading to long term benefits. While we agree that a specialist is needed, we feel that the approach towards physiotherapy could use some changes and we are bringing that change.
 
 ## Time to go a bit technical
-(INSERT IMAGE OF CIRCUIT)
-(INSERT IMAGE OF GLOVE)
+![Circuit](https://user-images.githubusercontent.com/56624437/193395574-d6ed1b3f-5a43-4b4f-b352-833de408405b.jpeg)
 
-(INSERT IMAGE OF FLOWCHART)
+
+![Glove](https://user-images.githubusercontent.com/56624437/193395575-f03ce484-dff3-4f05-91fe-7fc4fe2d7e08.jpeg)
+
+
+![Flowchart](https://user-images.githubusercontent.com/56624437/193396092-12684203-c158-42db-afd4-4c8687b3b780.jpeg)
+
+## Here's what we built in one night ;)
+
+https://drive.google.com/drive/folders/1FN19KEVdUctF4e_bkgBD_r7qY-7iKUb1?usp=sharing
+
+https://drive.google.com/drive/folders/1FN19KEVdUctF4e_bkgBD_r7qY-7iKUb1?usp=sharing
 
 
 
