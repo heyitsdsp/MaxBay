@@ -59,13 +59,16 @@ public class Movement : MonoBehaviour
     }
     void MovePlayer()
     {
-        float direction = mousePos.x * screenWidthCurrent / 2 - transform.position.x;
-        if (fileManager.playerState == "R" || direction>nonMovementZoneX)
+        
+        // float direction = mousePos.x * screenWidthCurrent / 2 - transform.position.x;  || direction>nonMovementZoneX
+        if (fileManager.playerState == "R")
         {
+            Debug.Log("Move player");
             MoveRight();
         }
-        else if (fileManager.playerState == "L" || -direction>nonMovementZoneX )
+        else if (fileManager.playerState == "L")
         {
+            Debug.Log("Move player L");
             MoveLeft();
         }
         else
