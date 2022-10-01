@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -18,16 +19,21 @@ public class UIManager : MonoBehaviour
     Image healthImage;
     [SerializeField]
     Sprite[] healthSprite;
+    CollisionScript playerCollision;
+    public bool inVulnerable = false;
+    [SerializeField]
+    TextMeshProUGUI deathText;
     // Start is called before the first frame update
 
     private void Awake()
     {
         startTime = 0;
         healthImage.sprite = healthSprite[2];
+        deathText.gameObject.SetActive(false);
     }
     void Start()
     {
-        
+        playerCollision = GameObject.FindGameObjectWithTag("Player").GetComponent<CollisionScript>();
     }
     
 
@@ -37,11 +43,12 @@ public class UIManager : MonoBehaviour
         CheckResetCondition();
         timeFlow=Time.time;
         ScoreValue();
+        Restart();
        // Debug.Log(Time.time);
     }
     void CheckResetCondition()
     {
-        if (onRestart)
+        if (onRestart && playerCollision.isAlive)
         {
             startTime = Time.time;
             onRestart = false;
@@ -54,12 +61,56 @@ public class UIManager : MonoBehaviour
     }
     public void Damage()
     {
-        health--;
-        if (health < 1)
+        if (!inVulnerable)
         {
-            //player blink
+            health--;
+            playerCollision.BlinkPlayer();
+            if (health < 1)
+            {
+                DeathMessage();
+                playerCollision.isAlive = false;
+                Destroy(playerCollision.gameObject,1f);
+            }
+            else
+            {
+                healthImage.sprite = healthSprite[health - 1];
+            }
+            
         }
-        healthImage.sprite = healthSprite[health - 1];
+        
 
+    }
+    void DeathMessage()
+    {
+        StartCoroutine(flashTextCoroutine());
+    }
+    IEnumerator flashTextCoroutine()
+    {
+        while (!playerCollision.isAlive)
+        {
+            deathText.gameObject.SetActive(true);
+            yield return new WaitForSeconds(0.5f);
+            deathText.gameObject.SetActive(false);
+            yield return new WaitForSeconds(0.5f);
+
+        }
+
+    }
+    void Restart()
+    {
+        if (!playerCollision.isAlive)
+        {
+            
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                onRestart = true;
+                SceneManager.LoadScene(1);
+            }
+            else if (Input.GetKeyDown(KeyCode.M))
+            {
+                SceneManager.LoadScene(0);
+            }
+        }
+        
     }
 }
