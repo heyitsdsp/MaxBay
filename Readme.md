@@ -24,12 +24,5 @@ We aim to make physiotherapy fun by integrating traditional exercises with games
 ## Time to go a bit technical
 (INSERT IMAGE OF CIRCUIT)
 (INSERT IMAGE OF GLOVE)
-![Two](https://user-images.githubusercontent.com/106113538/193393644-0c958e53-f128-4f69-b0a4-5a52ad445432.png)
-![One](https://user-images.githubusercontent.com/106113538/193393646-e2b04c01-6194-460e-bac2-f6bde87871a9.png)
-![Three](https://user-images.githubusercontent.com/106113538/193393649-692c38f7-bde1-4f01-a2d1-9205d68c7c52.png)
-![Two](https://user-images.githubusercontent.com/106113538/193393650-35664171-80ed-49c7-b538-c8c76c5f17fc.png)
-![Artboard 1-100](https://user-images.githubusercontent.com/106113538/193393651-4cf0a93c-447a-4229-a7b6-6e43e0190b55.jpg)
-![BG](https://user-images.githubusercontent.com/106113538/193393658-41aff3ba-8283-494c-9db9-2ef0347201a9.jpg)
-![One](https://user-images.githubusercontent.com/106113538/193393659-f8427bc6-751b-4426-bbdc-c173f1d6db53.png)
-![Three](https://user-images.githubusercontent.com/106113538/193393660-c7d49d18-16ce-4959-b900-c8143d2adbd9.png)
+
 
