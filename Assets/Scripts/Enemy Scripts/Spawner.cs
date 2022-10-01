@@ -38,7 +38,7 @@ public class Spawner : MonoBehaviour
         GameObject spawnedEnemy = Instantiate(enemyPrefabs[index], spawnPos[spawnIndex].position, Quaternion.identity);
         spawnedEnemy.SetActive(true);
         spawn = true;
-        Destroy(spawnedEnemy, 10f);
+        Destroy(spawnedEnemy, 20f);
 
     }
     

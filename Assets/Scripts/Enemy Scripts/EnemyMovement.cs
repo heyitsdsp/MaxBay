@@ -7,8 +7,6 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField]
     float velocityY;
     public bool isAlive = true;
-    [SerializeField]
-    GameObject explosionPrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,11 +25,5 @@ public class EnemyMovement : MonoBehaviour
     {
         transform.Translate(Vector3.down * velocityY * Time.deltaTime);
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-
-        }
-    }
+    
 }
